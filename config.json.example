@@ -1,0 +1,22 @@
+{
+  "server": {
+    "addr": "0.0.0.0",
+    "port": 9090
+  },
+  "ssh": {
+    "user": "root",
+    "port": 22,
+    "private_key": "/root/.ssh/id_rsa",
+    "private_key_password": ""
+  },
+  "allow": {
+    "dir": ["/root", "/data"],
+    "file_type": ["log", "sh"]
+  },
+  "ansible": {
+    "hosts_file": "/etc/ansible/hosts"
+  },
+  "web_terminal": {
+      "open": false
+  }
+}
